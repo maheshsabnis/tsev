@@ -21,6 +21,8 @@ o2.x = 100;
 console.log('o1.x after o2.x is changed = ' + o1.x);
 console.log('o2.x after o2.x is changed = ' + o2.x);
 // create a clone of o1 with same schema and value
+// blank object is created {} and schema and value of o1
+// will be put into the blank object {x:100}
 var o3 = Object.assign({}, o1);
 console.log('o1.x = ' + o1.x);
 console.log('o3.x = ' + o3.x);
