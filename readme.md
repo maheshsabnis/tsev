@@ -49,3 +49,17 @@ TypeScript Language Features from ES 6
 1. Block Scope using 'let' keyword
    1. In JavaScript 'var' is function scope which results into dirty read/write values. To prevent it ES 6 has give 'let' keyword for declaration
       1. Use scope.ts file for demo
+2. DataTypes
+   1. number
+   2. string
+   3. object
+      1. Array<T>
+      2. Date
+      3. {}
+      4. function
+   4. any
+      1. Runtime Type definition
+   5. void
+   6. union types
+      1. declaring a variable with more than one datatype
+      2. fixed types during declarations
