@@ -64,6 +64,16 @@ TypeScript Language Features from ES 6
                   1. `${<EXPR1>} ${<EXPR1>} ${<EXPR1>}`
    3. object
       1. Array<T>
+         1. Collection in TypeScript
+         2. Properties
+            1. length
+         3. Methods
+            1. push() /pop()
+            2. forEach() / map() --> ES 5+
+            3. indexOf()
+            4. filter() --> ES 5+
+            5. sort() / reverse() --> ES 5+
+            6. concat()
       2. Date
       3. {}
       4. function
@@ -73,3 +83,29 @@ TypeScript Language Features from ES 6
    6. union types
       1. declaring a variable with more than one datatype
       2. fixed types during declarations
+3. An 'Arrow' oeprator
+   1. Syntax simplication as a replacement for the callback function to a method
+      1. Syntac is =>
+
+# ============================================================================
+1. Object Oriented Programming
+   1. class as a keyword
+      1. constructor() a fucntion
+         1. parameters  
+            1. constructor Scope parameters
+               1. constructor(p1, p2...)
+            2. class scope private/public ctor parameters just like private/public members
+               1. constructor(private p1:, private p2:)
+               2. constructor(public p1:,.)
+      2. all membrs of class are 'public' by default
+         1. The class members are accessed within class using 'this' reference
+      3. No Overloaded Functions
+      4. Inheritance is implemented using 'extends' keyword
+         1. No Overiiding
+      5. Static members are possible
+      6. get/set properties in class
+   2. Interface is declared using 'interface' keyword
+      1. interface is implemented by 'implements' keyword
+2. Modules
+   1. Provides 'Code-Splitting' by writing code in separate files
+   2. To use type (class/function/constant) from file1 inside file2, the file must 'export' the type and file2 must 'import' it.
