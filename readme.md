@@ -52,6 +52,16 @@ TypeScript Language Features from ES 6
 2. DataTypes
    1. number
    2. string
+      1. Object with methods and properties
+         1. Property
+            1. length
+         2. methods
+            1. toUpperCase() / toLowerCase()
+            2. subste() / spilt()
+         3. Template String
+            1. Immutable String object with HTML parsing aka String Expressions
+               1. e.g.
+                  1. `${<EXPR1>} ${<EXPR1>} ${<EXPR1>}`
    3. object
       1. Array<T>
       2. Date
